@@ -1,0 +1,86 @@
+body { 
+  background-color: #A4C6C2;
+  font-family:      Georgia, "Times New Roman", Times, serif;
+  font-size:        small;
+  margin:           0px;
+}
+
+#header {
+  background-color: #A4C6C2;
+  margin:           10px;
+  height:           120px;
+}
+
+#main {
+  background:       #A4C6C2;
+  font-size:        100%;
+  padding:          15px;
+  margin:           0px 10px 10px 10px;
+}
+
+#footer {
+  background-color: #675c47;
+  color:            #efe5d0;
+  text-align:       center;
+  padding:          15px;
+  margin:           10px;
+  font-size:        90%;
+}
+
+h1 {
+  font-size:        120%;
+  color:            #954b4b;
+}
+
+h2 { font-size: 110%; }
+
+.slogan { color: #954b4b; }
+
+.beanheading {
+  text-align:       center;
+  line-height:      1.8em;
+}
+
+a:link {
+  color:            #b76666;
+  text-decoration:  none;
+  border-bottom:    thin dotted #b76666;
+}
+a:visited {
+  color:            #675c47;
+  text-decoration:  none;
+  border-bottom:    thin dotted #675c47;
+}
+
+tr {
+  text-align:       center;
+}
+
+/* -- navigation -- */
+#navbar {
+  width:            1330px; 
+  height:           31px;
+  background-color: #268F81;
+  margin:           10px;
+}
+#navbar ul {
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+
+#navbar ul li {
+	float:left;
+}
+
+#navbar ul li a{
+	color:#fff; 
+	background-color:#268F81;
+	display:block;
+	width:120px;
+	text-align:center;
+	padding:0px 10px; 
+	font: bold 12px/30px Tahoma;
+	text-decoration:none;
+	margin-right:1px;
+}
